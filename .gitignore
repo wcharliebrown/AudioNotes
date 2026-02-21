@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Audio files (likely large)
+books/**/*.wav
+books/**/*.mp3
+books/**/*.m4a
+books/**/*.ogg
+
+# User data (notes and progress are personal)
+books/**/progress.json
+books/**/*.txt
