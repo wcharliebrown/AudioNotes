@@ -36,6 +36,7 @@ try {
         $jsonContent = file_get_contents($progressFile);
         $progressData = json_decode($jsonContent, true);
         $progressData['chapter'] = $_POST['new_chapter'];
+        $progressData['position'] = '0';
         file_put_contents($progressFile, json_encode($progressData));
     }
 
